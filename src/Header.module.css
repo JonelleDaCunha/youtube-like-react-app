@@ -1,0 +1,53 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background-color: white;
+}
+
+.logo{
+    height: 35px;
+    object-fit: contain;
+    margin:0px 10px;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    width: 40%;
+    /* border: 5px solid black; */
+}
+
+.searchBar > input {
+    flex: 1;
+}
+.iconsDiv{
+    display: flex;
+    align-items: center;
+}
+
+.iconsDiv div{
+    display: flex;
+    align-items: center;
+}
+
+.logoText{
+    font-family: 'Ephesis', cursive;
+    font-size: 40px;
+    color: rgb(247, 101, 121);
+}
+
+.icons{
+    cursor:pointer ;
+    color: rgb(247, 101, 121);
+    padding:5px;
+}
+
+/* .icons:hover{
+    background-color: lightgray;
+    border-radius: 50%;
+} */

@@ -1,0 +1,13 @@
+.videoBlock{
+    -webkit-flex: 1 1 0;
+    -ms-flex: 1 1 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content:space-evenly;
+  }
+  
+.pageTitle{
+  font-family: 'Yaldevi', sans-serif;
+  margin: 20px;
+}

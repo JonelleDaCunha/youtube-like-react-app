@@ -1,0 +1,12 @@
+.videoCol{
+
+}
+.paginator{
+    align-items: 'center';
+    justify-content: 'center',
+}
+
+.pageTitle{
+    font-family: 'Yaldevi', sans-serif;
+    margin: 20px;
+  }
